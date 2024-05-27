@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+    </style>
+</head>
+<body>
+    
+
+<!-- <picture> -->
+    <!-- <source media="(min-width: 1024px)" srcset="kitten-large.png">
+    <source media="(min-width: 667px)"  srcset="kitten-medium.png">
+    <img src="kitten-small.png" alt="Small Kitten"> -->
+
+
+    <!-- allows browser to decide on what image to use, and then when it changes it wont revery back? -->
+   <!-- w is used to say up to 500px then use this image etc vw is viewpoint and 50% of the size of screen -->
+    <!-- <img src="kitten-small.png" alt="Small Kitten"
+        srcset=" kitten-small.png 500w,
+                 kitten-medium.png 1000w,
+                 kitten-large.png 1500w"
+        sizes="50vw"
+        alt="Kitten"
+        > -->
+    
+        <!-- 1x  -->
+    <picture>
+        <source media="(min:width: 1024px)" srcset="kitten-large1x.png 1x, kitten-large2x.png 2x">
+
+    </picture>
+<!-- </picture> -->
+
+</body>
+</html>
